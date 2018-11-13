@@ -1,6 +1,8 @@
 def prime?(integer)
 
-  if integer == 2 || integer == 3
+  if integer < 1
+    return false
+  elsif integer == 2 || integer == 3
     return true
   else
     range = (2..integer - 1).to_a
