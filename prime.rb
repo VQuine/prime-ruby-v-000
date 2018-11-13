@@ -1,6 +1,6 @@
 def prime?(integer)
 
-  if integer == 2
+  if integer == 2 || integer == 3
     return true
   else
 range = (1..integer).to_a
