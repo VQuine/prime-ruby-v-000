@@ -1,5 +1,5 @@
 def prime?(integer)
-  if integer > 1 && integer % 2 == 0
+  if integer > 1 && integer % 2 == 0 || integer == 2
     return false
   elsif integer > 1
     range = (1..integer).to_a
