@@ -1,16 +1,11 @@
-
 def prime?(integer)
-
-  if 1 < integer && integer % 2 == 0
+  if integer > 1 && integer % 2 == 0
     return false
-  elsif 1 < integer
-      range = (1..integer).to_a
-      detection = range.detect { |num| num * num == integer }
-        detection == nil ? true : false
+  elsif integer > 1  
+    range = (1..integer).to_a
+    detection = range.detect { |num| num * num == integer }
+    detection == nil ? true : false
   else
-    return false
+    return true
   end
 end
-
-
-mom's argument you wdont want movies
