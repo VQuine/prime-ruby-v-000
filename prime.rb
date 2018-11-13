@@ -4,7 +4,7 @@ def prime?(integer)
   elsif integer > 1
     range = (1..integer).to_a
     detection = range.detect { |num| num * num == integer }
-    detection == nil ? true : false
+    detection == nil ? false : true
   else
     return true
   end
