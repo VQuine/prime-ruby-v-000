@@ -1,3 +1,5 @@
+# goodnes gracious, that was a lot of refactoring!
+
 def prime?(integer)
 # make sure the number is not negative
   if integer <= 1
